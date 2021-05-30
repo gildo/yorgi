@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+require "bundler/setup"
+Bundler.require(:default)
+
+require "yorgi"
+
+yorgi_env = ENV["YORGI_ENV"] || "development"
+
+# TODO: Add env specific configuration
+Config.load_and_set_settings("config/settings.yml")
+
+server = Yorgi::Server.new
+server.run

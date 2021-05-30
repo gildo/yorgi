@@ -1,0 +1,20 @@
+* Yorgi
+
+Interact with your Org Mode files from Telegram
+
+** Setup
+
+1. Change the relevant settings in ~config/settings.yml~
+2. Run!
+#+BEGIN_SRC sh
+bundle install
+./bin/yorgi
+#+END_SRC
+
+** Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/gildo/yorgi.
+
+** License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

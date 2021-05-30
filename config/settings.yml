@@ -1,0 +1,9 @@
+token: <%= ENV["YORGI_TOKEN"] || "" %>
+
+org_directory: /home/gildo/org/
+org_file: /home/gildo/org/ynbox.org
+journal_directory: /home/gildo/org/journal/
+journal_file_format: "%Y-%m-%d.org"
+journal_time_format: "%R"
+journal_date_prefix: "#+TITLE: "
+journal_date_format: "%A, %x"
